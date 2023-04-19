@@ -29,45 +29,45 @@ export default function DataSpage() {
 		</div>
 		<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
 			<div>
-				<h3 className="text-2xl font-bold tracking-tight sm:text-3xl  text-gray-50">Course Objectives</h3>
+				<h3 className="text-2xl font-bold tracking-tight sm:text-3xl    -50">Course Objectives</h3>
 				<p className="mt-3 text-lg  text-white">By the end of the course, students will be able to:</p>
 				<div className="mt-12 space-y-12">
 					<div className="flex">
 						<div className="flex-shrink-0">
-							<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400  text-gray-900">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400    -900">
 								<svg  fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
 								</svg>
 							</div>
 						</div>
 						<div className="ml-4">
-							<h4 className="text-lg font-medium leading-6  text-gray-50">Project Management Fundamentals</h4>
+							<h4 className="text-lg font-medium leading-6    -50">Project Management Fundamentals</h4>
 							<p className="mt-2  text-white">Learn the basics of project management, including how to plan, execute, and close out projects successfully.</p>
 						</div>
 					</div>
 					<div className="flex">
 						<div className="flex-shrink-0">
-							<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400  text-gray-900">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400    -900">
 								<svg  fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
 								</svg>
 							</div>
 						</div>
 						<div className="ml-4">
-							<h4 className="text-lg font-medium leading-6  text-gray-50">Effective Business Writing</h4>
+							<h4 className="text-lg font-medium leading-6    -50">Effective Business Writing</h4>
 							<p className="mt-2  text-white">Improve your written communication skills for the workplace, including emails, memos, and reports.</p>
 						</div>
 					</div>
 					<div className="flex">
 						<div className="flex-shrink-0">
-							<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400  text-gray-900">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400    -900">
 								<svg  fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
 								</svg>
 							</div>
 						</div>
 						<div className="ml-4">
-							<h4 className="text-lg font-medium leading-6  text-gray-50">Introduction to Digital Marketing</h4>
+							<h4 className="text-lg font-medium leading-6    -50">Introduction to Digital Marketing</h4>
 							<p className="mt-2  text-white">Explore the world of digital marketing, including social media, SEO, and content marketing.</p>
 						</div>
 					</div>
@@ -80,45 +80,45 @@ export default function DataSpage() {
 		<div>
 			<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
 				<div className="lg:col-start-2">
-					<h3 className="text-2xl font-bold tracking-tight sm:text-3xl  text-gray-50">Course Syllabus</h3>
+					<h3 className="text-2xl font-bold tracking-tight sm:text-3xl    -50">Course Syllabus</h3>
 					<p className="mt-3 text-lg  text-white">Our course syllabus is designed to cover all the essential topics and skills needed to succeed in your field of interest.</p>
 					<div className="mt-12 space-y-12">
 						<div className="flex">
 							<div className="flex-shrink-0">
-								<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400  text-gray-900">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400    -900">
 									<svg  fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
 										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
 									</svg>
 								</div>
 							</div>
 							<div className="ml-4">
-								<h4 className="text-lg font-medium leading-6  text-gray-50">Data Analysis Fundamentals</h4>
+								<h4 className="text-lg font-medium leading-6    -50">Data Analysis Fundamentals</h4>
 								<p className="mt-2  text-white">This section covers the fundamental concepts and techniques of data analysis, including exploratory data analysis, data visualization, and data cleaning.</p>
 							</div>
 						</div>
 						<div className="flex">
 							<div className="flex-shrink-0">
-								<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400  text-gray-900">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400    -900">
 									<svg  fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
 										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
 									</svg>
 								</div>
 							</div>
 							<div className="ml-4">
-								<h4 className="text-lg font-medium leading-6  text-gray-50">Statistical Inference and Machine Learning</h4>
+								<h4 className="text-lg font-medium leading-6    -50">Statistical Inference and Machine Learning</h4>
 								<p className="mt-2  text-white">This section covers the statistical inference techniques used in data science, such as hypothesis testing and regression analysis. </p>
 							</div>
 						</div>
 						<div className="flex">
 							<div className="flex-shrink-0">
-								<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400  text-gray-900">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md  bg-violet-400    -900">
 									<svg  fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
 										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
 									</svg>
 								</div>
 							</div>
 							<div className="ml-4">
-								<h4 className="text-lg font-medium leading-6  text-gray-50">Data Management and Big Data</h4>
+								<h4 className="text-lg font-medium leading-6    -50">Data Management and Big Data</h4>
 								<p className="mt-2  text-white">This section covers the tools and techniques used to manage large data sets, including SQL and Hadoop. </p>
 							</div>
 						</div>
