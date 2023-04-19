@@ -5,32 +5,32 @@ export default function DataSpage() {
      <>
      <div className='bg-slate-950'>
      <Navbar1/>
-     <div className="p-5 mx-auto sm:p-10 md:p-16 dark:bg-slate-950 dark:text-gray-100">
+     <div className="p-5 mx-auto sm:p-10 md:p-16 dark:bg-slate-950 dark:text-white">
 	<div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
 		<img src="/images6.jpeg" alt="" className="w-full h-60 sm:h-96 dark:bg-gray-500" />
 		<div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md dark:bg-gray-900">
 			<div className="space-y-2">
 				<a rel="noopener noreferrer" href="#" className="inline-block text-2xl font-semibold sm:text-3xl">Data Science Course</a>
-				<p className="text-xs dark:text-gray-400">By
+				<p className="text-xs dark:text-white">By
 					<a rel="noopener noreferrer" href="#" className="text-xs hover:underline">Chatgpt</a>
 				</p>
 			</div>
-			<div className="dark:text-gray-100">
+			<div className="dark:text-white">
 				<p>Our Data Science course is designed for individuals looking to gain a comprehensive understanding of data analysis, manipulation, and visualization.</p>
 			</div>
 		</div>
 	</div>
 </div>
-<section className="dark:bg-slate-950 dark:text-gray-100">
+<section className="dark:bg-slate-950 dark:text-white">
 	<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 		<div>
 			<h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-rose-600">Data Science</h2>
-			<p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-400">Data science is the study of data to extract meaningful insights for business.</p>
+			<p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-white">Data science is the study of data to extract meaningful insights for business.</p>
 		</div>
 		<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
 			<div>
 				<h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">Course Objectives</h3>
-				<p className="mt-3 text-lg dark:text-gray-400">By the end of the course, students will be able to:</p>
+				<p className="mt-3 text-lg dark:text-white">By the end of the course, students will be able to:</p>
 				<div className="mt-12 space-y-12">
 					<div className="flex">
 						<div className="flex-shrink-0">
@@ -42,7 +42,7 @@ export default function DataSpage() {
 						</div>
 						<div className="ml-4">
 							<h4 className="text-lg font-medium leading-6 dark:text-gray-50">Project Management Fundamentals</h4>
-							<p className="mt-2 dark:text-gray-400">Learn the basics of project management, including how to plan, execute, and close out projects successfully.</p>
+							<p className="mt-2 dark:text-white">Learn the basics of project management, including how to plan, execute, and close out projects successfully.</p>
 						</div>
 					</div>
 					<div className="flex">
@@ -55,7 +55,7 @@ export default function DataSpage() {
 						</div>
 						<div className="ml-4">
 							<h4 className="text-lg font-medium leading-6 dark:text-gray-50">Effective Business Writing</h4>
-							<p className="mt-2 dark:text-gray-400">Improve your written communication skills for the workplace, including emails, memos, and reports.</p>
+							<p className="mt-2 dark:text-white">Improve your written communication skills for the workplace, including emails, memos, and reports.</p>
 						</div>
 					</div>
 					<div className="flex">
@@ -68,7 +68,7 @@ export default function DataSpage() {
 						</div>
 						<div className="ml-4">
 							<h4 className="text-lg font-medium leading-6 dark:text-gray-50">Introduction to Digital Marketing</h4>
-							<p className="mt-2 dark:text-gray-400">Explore the world of digital marketing, including social media, SEO, and content marketing.</p>
+							<p className="mt-2 dark:text-white">Explore the world of digital marketing, including social media, SEO, and content marketing.</p>
 						</div>
 					</div>
 				</div>
@@ -81,7 +81,7 @@ export default function DataSpage() {
 			<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
 				<div className="lg:col-start-2">
 					<h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">Course Syllabus</h3>
-					<p className="mt-3 text-lg dark:text-gray-400">Our course syllabus is designed to cover all the essential topics and skills needed to succeed in your field of interest.</p>
+					<p className="mt-3 text-lg dark:text-white">Our course syllabus is designed to cover all the essential topics and skills needed to succeed in your field of interest.</p>
 					<div className="mt-12 space-y-12">
 						<div className="flex">
 							<div className="flex-shrink-0">
@@ -93,7 +93,7 @@ export default function DataSpage() {
 							</div>
 							<div className="ml-4">
 								<h4 className="text-lg font-medium leading-6 dark:text-gray-50">Data Analysis Fundamentals</h4>
-								<p className="mt-2 dark:text-gray-400">This section covers the fundamental concepts and techniques of data analysis, including exploratory data analysis, data visualization, and data cleaning.</p>
+								<p className="mt-2 dark:text-white">This section covers the fundamental concepts and techniques of data analysis, including exploratory data analysis, data visualization, and data cleaning.</p>
 							</div>
 						</div>
 						<div className="flex">
@@ -106,7 +106,7 @@ export default function DataSpage() {
 							</div>
 							<div className="ml-4">
 								<h4 className="text-lg font-medium leading-6 dark:text-gray-50">Statistical Inference and Machine Learning</h4>
-								<p className="mt-2 dark:text-gray-400">This section covers the statistical inference techniques used in data science, such as hypothesis testing and regression analysis. </p>
+								<p className="mt-2 dark:text-white">This section covers the statistical inference techniques used in data science, such as hypothesis testing and regression analysis. </p>
 							</div>
 						</div>
 						<div className="flex">
@@ -119,7 +119,7 @@ export default function DataSpage() {
 							</div>
 							<div className="ml-4">
 								<h4 className="text-lg font-medium leading-6 dark:text-gray-50">Data Management and Big Data</h4>
-								<p className="mt-2 dark:text-gray-400">This section covers the tools and techniques used to manage large data sets, including SQL and Hadoop. </p>
+								<p className="mt-2 dark:text-white">This section covers the tools and techniques used to manage large data sets, including SQL and Hadoop. </p>
 							</div>
 						</div>
 					</div>
@@ -131,10 +131,10 @@ export default function DataSpage() {
 		</div>
 	</div>
 </section>
-<section className="m-4 md:m-8 dark:bg-slate-950 dark:text-gray-100">
+<section className="m-4 md:m-8 dark:bg-slate-950 dark:text-white">
 	<div className="container mx-auto p-4 my-6 space-y-2 text-center">
 		<h2 className="text-5xl font-bold">Course Details</h2>
-		<p className="dark:text-gray-400">This section provides a brief overview of the key details for our data science course, including course duration, prerequisites, and learning format.</p>
+		<p className="dark:text-white">This section provides a brief overview of the key details for our data science course, including course duration, prerequisites, and learning format.</p>
 	</div>
 	<div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
 		<div className="flex flex-col items-center p-4">
