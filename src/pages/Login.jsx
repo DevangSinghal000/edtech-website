@@ -1,10 +1,10 @@
 
-import { getAuth, signInWithusernameAndPassword } from "firebase/auth";
+
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Head from "next/head";
-import { initFirebase } from "../../firebase";
+
 
    
 
@@ -13,8 +13,7 @@ import { initFirebase } from "../../firebase";
 export default function Login() {
   const [user, setUser] = useState({ username: "", password: "" });
   const router = useRouter();
-  const app = initFirebase();
-   
+
 
 
 

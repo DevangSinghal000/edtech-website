@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+
 import React from 'react';
 
 
