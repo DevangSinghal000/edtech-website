@@ -1,12 +1,12 @@
 import Navbar1 from '../../components/header'
 import Footer from '../../components/footer'
-import Login from '../../components/Login'
-export default function LoginPage() {
+import Register from '../../components/Register'
+export default function RegisterPage() {
     return (
      <>
      <div>
      <Navbar1/>
-     <Login />
+     <Register />
      <Footer />
      </div>
      </>
