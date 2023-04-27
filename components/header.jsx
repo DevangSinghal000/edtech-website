@@ -6,32 +6,39 @@ export default function Navbar1()  {
   const headerStyle = {
     backgroundColor: 'rgb(3, 3, 3)',
     color: '#00adb5',
-    
-    
-    
   };
   
 
   return (
-    <header className="text-cyan-600 body-font border-b border-gray-200 " style={headerStyle}>
-  <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" target="_blank">
-  <img src="/Logo.png" alt="Logo" className="h-20 text-white p-2  " />
-  <span  className="ml-3 text-xl text-cyan-600">MindEdge</span>
-</a>
-
-    <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a className="mr-5 hover:text-emerald-600 text-lg" href="/">Home</a>
-      <a className="mr-5 hover:text-emerald-600 text-lg" href="/code">Code </a>
-      <a className="mr-5 hover:text-emerald-600 text-lg" href="/Liveclass">Live Class</a>
-      <a className="mr-5 hover:text-emerald-600 text-lg" href="/courses">Courses</a>
-      <a className="mr-5 hover:text-emerald-600 text-lg" href="/blog">Blog</a>
-      <a className="mr-5 hover:text-emerald-600 text-lg" href="/contact">Contact</a>
-      
-    </nav>
-    <button  className="inline-flex items-center bg-cyan-700 text-white border-0 py-1 px-3 focus:outline-none hover:bg-emerald-700 hover:text-white rounded text-base mt-4 md:mt-0" > <a href = "/Login">Log in</a>
-    </button>
-  </div>
+    <header className="p-4 bg-slate-950 border-gray-200 text-cyan-600">
+	<div className="container flex justify-between h-16 mx-auto md:justify-center md:space-x-8">
+		<ul className="items-stretch hidden space-x-3 md:flex">
+			<li className="flex">
+				<a rel="noopener noreferrer" href="/"  className="flex items-center px-4 -mb-1    dark:border-transparent  hover:text-emerald-600">Home</a>
+			</li>
+			<li className="flex">
+				<a rel="noopener noreferrer" href="/code" className="flex items-center px-4 -mb-1   dark:border-transparent  hover:text-emerald-600">Code</a>
+			</li>
+			<li className="flex">
+				<a rel="noopener noreferrer" href="/Liveclass" className="flex items-center px-4 -mb-1   dark:border-transparent   hover:text-emerald-600">Live Class</a>
+			</li>
+		</ul>
+		<a  rel="noopener noreferrer" href="/" aria-label="Back to homepage" className="flex items-center p-2 " >
+    <img src="/Logo.png" alt="Logo" className="h-24 w-auto text-white " />
+		</a>
+		<ul className="items-stretch hidden space-x-3 md:flex">
+			<li className="flex">
+				<a rel="noopener noreferrer" href="/courses" className="flex items-center px-4 -mb-1   dark:border-transparent  hover:text-emerald-600">Courses</a>
+			</li>
+			<li className="flex">
+				<a rel="noopener noreferrer" href="/blog" className="flex items-center px-4 -mb-1   dark:border-transparent  hover:text-emerald-600">Blog</a>
+			</li>
+			<li className="flex">
+				<a rel="noopener noreferrer" href="/contact" className="flex items-center px-4 -mb-1   dark:border-transparent  hover:text-emerald-600">Contact</a>
+			</li>
+		</ul>
+		
+	</div>
 </header>
    
   )
